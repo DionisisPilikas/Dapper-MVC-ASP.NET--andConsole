@@ -1,0 +1,26 @@
+﻿@model IEnumerable<DapperWeb.Models.Student>
+
+<h2>Students</h2>
+
+<table>
+<tr>
+    <th>id</th>
+    <th>firstname</th>
+    <th>lastname</th>
+    <th>dateofbirth</th>
+    <th>tuisionfees</th>
+    <th>mark</th>
+</tr>
+@foreach (var student in Model)
+{
+    <tr>
+        <td>@Html.DisplayFor(x => student.StudentID)</td>
+        <td>@Html.DisplayFor(x => student.FirstName)</td>
+        <td>@Html.DisplayFor(x => student.LastName)</td>
+        <td>@Html.DisplayFor(x => student.Dateofbirth)</td>
+        <td>@Html.DisplayFor(x => student.Sum_TuisionFees)</td>
+        <td>@Html.DisplayFor(x => student.Avg_TotalMark)</td>
+    </tr>
+}
+</table>
+

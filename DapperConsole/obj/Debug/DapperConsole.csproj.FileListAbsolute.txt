@@ -1,0 +1,9 @@
+C:\Users\dionisis\Desktop\Dapper\DapperBootcamp\DapperConsole\obj\Debug\DapperConsole.csprojAssemblyReference.cache
+C:\Users\dionisis\Desktop\Dapper\DapperBootcamp\DapperConsole\bin\Debug\DapperConsole.exe.config
+C:\Users\dionisis\Desktop\Dapper\DapperBootcamp\DapperConsole\bin\Debug\DapperConsole.exe
+C:\Users\dionisis\Desktop\Dapper\DapperBootcamp\DapperConsole\bin\Debug\DapperConsole.pdb
+C:\Users\dionisis\Desktop\Dapper\DapperBootcamp\DapperConsole\bin\Debug\Dapper.dll
+C:\Users\dionisis\Desktop\Dapper\DapperBootcamp\DapperConsole\bin\Debug\Dapper.xml
+C:\Users\dionisis\Desktop\Dapper\DapperBootcamp\DapperConsole\obj\Debug\DapperConsole.csproj.CopyComplete
+C:\Users\dionisis\Desktop\Dapper\DapperBootcamp\DapperConsole\obj\Debug\DapperConsole.exe
+C:\Users\dionisis\Desktop\Dapper\DapperBootcamp\DapperConsole\obj\Debug\DapperConsole.pdb

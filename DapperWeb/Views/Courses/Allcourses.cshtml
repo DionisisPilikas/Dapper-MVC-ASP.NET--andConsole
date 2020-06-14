@@ -1,0 +1,39 @@
+﻿
+
+@model IEnumerable<DapperWeb.Models.Course>
+
+@{
+    ViewBag.Title = "Allcourses";
+}
+
+<h2>Allcourses</h2>
+
+<table>
+    <tr>
+        <th>course id</th>
+        <th>title</th>
+        <th>stream</th>
+        <th>type</th>
+        <th>startdate</th>
+        <th>enddate</th>
+    </tr>
+
+
+    @foreach (var course in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(x => course.CourseID)
+            </td>
+            <td> @Html.DisplayFor(x => course.TITLE)</td>
+
+            <td>@Html.DisplayFor(x => course.STREAM)</td>
+            <td> @Html.DisplayFor(x => course.TYPE)</td>
+            <td> @Html.DisplayFor(x => course.STARTDATE)</td>
+            <td> @Html.DisplayFor(x => course.ENDDATE)</td>
+
+        </tr>
+    }
+
+
+</table>

@@ -1,0 +1,40 @@
+﻿
+
+@model IEnumerable<dynamic>
+
+@{
+    ViewBag.Title = "Courses";
+}
+
+<h2>Courses</h2>
+
+<table>
+    <tr>
+        <th>course id</th>
+        <th>title</th>
+        <th>stream</th>
+        <th>type</th>
+        <th>startdate</th>
+        <th>enddate</th>
+    </tr>
+
+
+    @foreach (var course in Model)
+    {
+        <tr>
+            <td>
+                @course.CourseID
+            </td>
+            <td> @course.TITLE</td>
+
+            <td>@course.STREAM</td>
+            <td> @course.TYPE</td>
+            <td> @course.STARTDATE</td>
+            <td> @course.ENDDATE</td>
+
+        </tr>
+    }
+
+
+</table>
+

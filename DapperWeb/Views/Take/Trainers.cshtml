@@ -1,0 +1,23 @@
+﻿@model IEnumerable<dynamic>  
+
+
+<h2>trainers</h2>
+
+<table>
+    <tr>
+        <th>id</th>
+        <th>firstname</th>
+        <th>lastname</th>
+        <th>subject</th>
+    </tr>
+
+    @foreach (var trainer in Model)
+    {
+        <tr>
+            <td>@trainer.TrainerID</td>
+            <td>@trainer.FIRSTNAME</td>
+            <td>@trainer.LASTNAME</td>
+            <td>@trainer.SUBJECTOFTRAINER</td>
+        </tr>
+    }
+</table>
